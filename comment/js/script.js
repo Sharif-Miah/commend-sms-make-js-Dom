@@ -9,6 +9,7 @@ document.getElementById('submit-btn').addEventListener('click', function () {
     const p = document.createElement('p')
 
     p.innerText = newText;
-    commentContainer.appendChild(p)
+    commentContainer.appendChild(p);
+    textWrite.value = '';
 
 })
